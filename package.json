@@ -1,0 +1,28 @@
+{
+  "name": "pugjs-template-boilerplate",
+  "version": "1.0.0",
+  "description": "A template boilerplate, for projects with PugJs + Sass + CoffeeScript and Gulp.",
+  "main": "index.pug",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-coffee": "^3.0.3",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^2.0.0",
+    "node-sass": "^4.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luxonauta/pugjs-template-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "Lucas de França",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luxonauta/pugjs-template-boilerplate/issues"
+  },
+  "homepage": "https://github.com/luxonauta/pugjs-template-boilerplate#readme"
+}
