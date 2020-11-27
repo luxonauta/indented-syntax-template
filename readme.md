@@ -11,13 +11,13 @@ To start using, all you need to do is install the development dependencies, usin
 > Make sure you have the latest version of [Node.js](https://nodejs.org/en/) installed on your operating system first!
 
 ```
-    npm i
+npm i
 ```
 
 Now, just run the command below on your terminal:
 
 ```
-    npm run gulp
+npm run gulp
 ```
 
 ### :bricks: The template structure
