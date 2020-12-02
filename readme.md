@@ -1,4 +1,4 @@
-# :monkey: PugJs Template Boilerplate!
+# :flying_saucer: PugJs Template Boilerplate!
 
 This is a generic template, for those who need or want to work using [PugJs](https://pugjs.org/), [Sass](https://sass-lang.com/) and [CoffeeScript](https://coffeescript.org/).
 
@@ -26,5 +26,4 @@ In ``structure`` you will assemble your layout, which will be imported by your p
 
 The pages can also include others from the ``includes`` folder, in addition to including the page style and scripts, built into the ``coffee`` folder.
 
-
-:flying_saucer:
+:monkey:
