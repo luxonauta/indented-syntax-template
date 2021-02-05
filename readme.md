@@ -1,8 +1,8 @@
 # :flying_saucer: PugJs Template Boilerplate!
 
-This is a generic template, for those who need or want to work using [PugJs](https://pugjs.org/), [Sass](https://sass-lang.com/) and [CoffeeScript](https://coffeescript.org/).
+This project is a generic template, to work using [PugJs](https://pugjs.org/), [Sass](https://sass-lang.com/) and [CoffeeScript](https://coffeescript.org/).
 
-To automate this work environment, [Gulp](https://gulpjs.com/) is used.
+For it to be efficient, the work environment has to be automated, and for that, [Gulp](https://gulpjs.com/) is necessary.
 
 ## :rocket: Getting Started
 
@@ -22,8 +22,8 @@ npm run gulp
 
 ### :bricks: The template structure
 
-In ``structure`` you will assemble your layout, which will be imported by your pages, here is called your reset style, built in the ``sass`` folder.
+In the ``structure`` folder, you will assemble your layout, which your pages will import, they are responsible for calling the style, coded in the ``sass`` folder.
 
-The pages can also include others from the ``includes`` folder, in addition to including the page style and scripts, built into the ``coffee`` folder.
+The pages can also include others, from the ``includes`` folder and scripts, from the ``coffee`` folder.
 
 :monkey:
