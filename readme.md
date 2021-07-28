@@ -10,13 +10,13 @@ To start using, all you need to do is install the development dependencies, usin
 
 > Make sure you have the latest version of [Node.js](https://nodejs.org/en/) installed on your operating system first!
 
-```
+```sh
 npm i
 ```
 
 Now, just run the command below on your terminal:
 
-```
+```sh
 npm run gulp
 ```
 
