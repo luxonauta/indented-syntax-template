@@ -3,4 +3,4 @@ Thumbs.db
 node_modules/
 docs/
 package-lock.json
-/luxa.code-workspace
+luxa.code-workspace
