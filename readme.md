@@ -1,29 +1,40 @@
-# :flying_saucer: PugJs Template Boilerplate!
+# Indented Syntax Template
 
-This project is a generic template, to work using [PugJs](https://pugjs.org/), [Sass](https://sass-lang.com/) and [CoffeeScript](https://coffeescript.org/).
+This project is a template for working with [PugJs](https://pugjs.org/), [Sass](https://sass-lang.com/) and [CoffeeScript](https://coffeescript.org/).
 
-For it to be efficient, the work environment has to be automated, and for that, [Gulp](https://gulpjs.com/) is necessary.
+With it is possible to quickly start a project, using these technologies that allow you to code with indented syntax.
 
-## :rocket: Getting Started
+If something doesn't work, please [file an issue](https://github.com/luxonauta/indented-syntax-template/issues/new).
+
+If you have questions or need help, please ask in [GitHub Discussions](https://github.com/luxonauta/indented-syntax-template/discussions).
+
+## Quick Overview
 
 To start using, all you need to do is install the development dependencies, using the code below in your terminal:
-
-> Make sure you have the latest version of [Node.js](https://nodejs.org/en/) installed on your operating system first!
 
 ```sh
 npm i
 ```
 
-Now, just run the command below on your terminal:
+> Make sure you have the latest stable version of [Node.js](https://nodejs.org/en/) installed on your operating system first!
+
+With the dependencies properly installed, just run the command below on your terminal:
 
 ```sh
-npm run gulp
+gulp
 ```
 
-### :bricks: The template structure
+### Looking for the doc of some language?
 
-In the ``structure`` folder, you will assemble your layout, which your pages will import, they are responsible for calling the style, coded in the ``sass`` folder.
+The documentation of the languages used in the template are located on their websites.
 
-The pages can also include others, from the ``includes`` folder and scripts, from the ``coffee`` folder.
+* [PugJs](https://pugjs.org/)
+* [Sass](https://sass-lang.com/)
+* [CoffeeScript](https://coffeescript.org/)
+* [GulpJs](https://gulpjs.com/)
+
+### Something missing?
+
+If you have ideas for the template, let me know or contribute some!
 
 :monkey:

@@ -1,6 +1,11 @@
-Thumbs.db
-.vscode/
 node_modules/
-docs/
 package-lock.json
+
+.vscode/
+.idea/
+
 luxa.code-workspace
+
+Thumbs.db
+
+docs/
