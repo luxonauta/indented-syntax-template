@@ -1,4 +1,5 @@
 gulp = require("gulp");
+Fiber = require("fibers")
 
 pug = require("gulp-pug");
 sass = require("gulp-sass")(require("sass"));
@@ -15,8 +16,8 @@ compilePug = () =>
     .pipe(browserSync.stream())
 
 compileSass = () =>
-  return gulp.src("./sass/*.sass")
-    .pipe(sass({outputStyle: "compressed"}).on("error", sass.logError))
+  return gulp.src("./sass/*.{scss,sass}")
+    .pipe(sass({outputStyle: "compressed"}, fiber: Fiber).on("error", sass.logError))
     .pipe(gulp.dest("./docs/assets/styles/"))
     .pipe(browserSync.stream())
 

@@ -1,2 +1,2 @@
-# My main CoffeeScript
+# My main script
 console.log("Hi! 🛸")
