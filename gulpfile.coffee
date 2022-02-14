@@ -1,13 +1,12 @@
-gulp = require("gulp");
-Fiber = require("fibers")
+gulp = require("gulp")
 
-pug = require("gulp-pug");
-sass = require("gulp-sass")(require("sass"));
-coffee = require("gulp-coffee");
+pug = require("gulp-pug")
+sass = require("gulp-sass")(require("sass"))
+coffee = require("gulp-coffee")
 
-uglify = require("gulp-uglify-es").default;
+uglify = require("gulp-uglify-es").default
 
-browserSync = require("browser-sync").create();
+browserSync = require("browser-sync").create()
 
 compilePug = () =>
   return gulp.src("./*.pug")
@@ -17,7 +16,7 @@ compilePug = () =>
 
 compileSass = () =>
   return gulp.src("./sass/*.{scss,sass}")
-    .pipe(sass({outputStyle: "compressed"}, fiber: Fiber).on("error", sass.logError))
+    .pipe(sass({outputStyle: "compressed"}).on("error", sass.logError))
     .pipe(gulp.dest("./docs/assets/styles/"))
     .pipe(browserSync.stream())
 
